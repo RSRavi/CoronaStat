@@ -20,7 +20,6 @@ from twilio.twiml.messaging_response import MessagingResponse
 import DataParse
 
 app = Flask(__name__)
-
 @app.route("/")
 def hello():
     return "Hello, World!"
